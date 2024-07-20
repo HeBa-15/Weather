@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+		
+    
+
+
+        
+		<section>
+
+            
+    <nav id="iteming" class="navbar navbar-expand-lg ">
+        <div class="container py-4 px-5">
+            <a class="navbar-brand fs-5 ms-3 fw-bold text-white d-flex" href="#">
+
+                <img src="https://routeweather.netlify.app/images/logo@2x.png" alt="" class="logo" width="64" height="38">
+
+                <div class="logo-type ps-3 ">
+                    <h6 class="site-title fw-bold fs-14">Weather</h6>
+                    <small class="site-description fs-10 lead">tagline goes here</small>
+                </div>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item nav-underline pe-5 ">
+                        <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link text-white " href="#news">News</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link text-white " href="#liveCameras">Live Cameras</a>
+                    </li>
+                    <li class="nav-item pe-5" >
+                        <a class="nav-link text-white " href="#photos">Photos</a>
+                    </li>
+                   
+                    <li class="nav-item pe-5">
+                        <a class="nav-link text-white " href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--  data-bg-image="images/banner.png" style="background-image: url(&quot;images/banner.png&quot;); -->
+
+
+
+            <div class="hero  " data-bg-image="images/banner.png" style="background-image: url(&quot;images/banner.png&quot;);" >
+				<div class="container ">
+					<form class="find-location ">
+						<input type="text" placeholder="Find your location..." id="search">
+						<input type="button" value="Find" id="submit">
+					</form>
+
+				</div>
+			</div>
+
+
+
+
+         
+
+                    <div class="container ">
+                        <div class="forecast-container" id="forecast"><div class="today forecast">
+                            <div class="forecast-header d-flex" id="today">
+                            <div id="today_date_day_name" class="day">Monday</div>
+                            <div class="d-flex gap-2 ms-auto " >
+                                <div id="today_date_day_number" class=" date">15 </div>
+                                <span id="today_date_month">July</span>
+                            </div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content" id="current">
+                            <div id="today_location" class="location">Cairo</div>
+                            <div class="degree">
+                                <div id="today_temp" class="num">34.1<sup>o</sup>C</div>
+                            
+                                <div class="forecast-icon">
+                                    <img id="today_condition_img" src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+                                </div>	
+                            
+                            </div>
+                            <div id="today_condition_text" class="custom ">Clear</div>
+                            <span>
+                                <img src="images/icon-umberella.jpg" alt="">
+                                <p id="humidity">20%</p>
+                           </span>
+
+
+                                 <span>
+                                    <img src="images/icon-wind.jpg" alt="">
+                                   <p id="wind"> 18km/h</p>
+                                
+                                </span>
+
+
+                                 <span>
+                                    <img src="images/icon-compass.jpg" alt="">
+                                   <p id="wind_direction"> East</p>
+                                </span>
+                            </div>
+        
+                      
+
+
+
+                        </div>	<div class="forecast">
+                            <div class="forecast-header">
+                                <div  class="next_day_name">Tuesday</div>
+                            </div> <!-- .forecast-header -->
+
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img class="next_condition_img" src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                                </div>
+                                <div  class="degree next_max_temp">39.6<sup>o</sup>C</div>
+                                <small class="next_min_temp">26.1<sup>o</sup></small>
+                            <div  class="custom next_condition_text">Sunny</div>
+                            </div>
+                        </div>	
+                            
+
+                            <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="next_day_name">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+
+
+                            <div class="forecast-content">
+                                    <div class="forecast-icon">
+                                        <img class="next_condition_img" src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                                    </div>
+
+                                <div class="degree next_max_temp">40.3<sup>o</sup>C</div>
+
+                                <small class="next_min_temp">27<sup>o</sup></small>
+
+                                <div class="custom next_condition_text">Sunny</div>
+                            </div>
+                            </div></div>
+                                    </div>
+                              
+        
+               
+    
+    
+
+            <footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email to subscribe...">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-google-plus"></i></a>
+								<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+				</div>
+			</footer> <!-- .site-footer -->
+		</div>
+
+
+
+        </section>
+    
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js.map"></script>
+    <script src="./js/index.js"></script>
+
+
+
+
+
+
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
